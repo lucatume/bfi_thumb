@@ -1,4 +1,9 @@
 <?php
+// require the pluggable.php file
+if (!defined('ABSPATH')) {
+    return; 
+}
+require_once(ABSPATH . 'wp-includes/pluggable.php');
 /*
  * bfi_thumb - WP Image Resizer v1.2.1
  *
